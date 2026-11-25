@@ -1,0 +1,25 @@
+# Python artifacts
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.venv/
+venv/
+
+# IDE / OS
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Large raw packet captures & generated ML CSV outputs (keep small sample smart_city_traffic_light.csv)
+*.pcapng
+smart_city_dataset_*.csv
+smart_city_dataset3.png
+smart_city_enriched_features.csv
+smart_city_advanced_ml_results.csv
+smart_city_anomalies_predicted*.csv
+smart_city_benchmark_results.csv
+smart_city_verified_threats.csv
+
+# Trained binary weights (regenerate via train_and_save_model.py)
+*.pkl
